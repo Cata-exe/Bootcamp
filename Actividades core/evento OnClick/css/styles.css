@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-left: 100px;
+}
+
+nav{
+    background-color:#d3d3d3;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 90px;
+    width: 1250px;
+    margin-bottom: 20px;
+}
+
+input{
+    height: 20px;
+    width: 700px;
+    margin-right: 20px;
+}
+
+.login{
+    border: 2px solid black;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: #1e90ff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.57);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.animal{
+    border: 2px solid black;
+    padding: 20px 30px 0px 10px;
+    height: 220px;
+    width: 820px;
+    padding-top: 10px;
+}
+
+.animal>*{
+    margin-top: 15px;
+}
+
+.animal>h2{
+    margin: 20px 0px 10px 0px;
+}
+
+.definicion{
+    border: 2px solid black;
+    padding: 10px 50px 10px 20px;
+    width: 380px;
+}
+
+.def{
+    margin-top: 15px;
+    border: 2px solid black;
+    height: 40px;
+    width: 250px;
+    background-color: #008002;
+    color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.57);
+}
+
+#like1, #like2{
+    background-color: #fcfdd0;
+    border-radius: 10px;
+    height: 30px;
+    width: 120px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

@@ -1,0 +1,53 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 680px;
+    width: 900px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    filter: drop-shadow(6px 8px 10px rgba(4, 4, 4, 0.268));
+}
+
+.topNav{
+    height: 120px;
+    width: 900px;
+    background-color: rgb(40, 187, 209);
+    border-radius: 10px 10px 0px 0px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.info{
+    margin: 90px 50px 0px 50px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(57, 57, 57);
+    margin-bottom: 30px;
+}
+
+button{
+    height: 40px;
+    width: 110px;
+    margin: 0px 0px 30px 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+button:hover{
+    cursor: pointer;
+}

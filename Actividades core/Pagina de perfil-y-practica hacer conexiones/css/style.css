@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(226, 226, 226);
+}
+
+.navbar{
+    background-color: rgb(41, 101, 122);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.page{
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.menu li{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.menu li:hover{
+    color: rgb(109, 176, 200);
+    cursor: pointer;
+}
+
+#logOff{
+    margin-right: 10px;
+    border: none;
+    padding: 9px 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(40, 197, 197);
+    border-radius: 5px;
+}
+
+#logOff:hover{
+    cursor: pointer;
+    background-color: rgb(36, 186, 186);
+}
+
+.container1{
+    background-color: rgb(254, 243, 243);
+    height: 460px;
+    width: 800px;
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(128, 128, 128, 0.375);
+}
+
+.education{
+    background-color: rgb(254, 243, 243);
+    height: 145px;
+    width: 800px;
+    margin: 8px 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 3px 8px rgba(128, 128, 128, 0.375);
+}
+
+.education>*{
+    margin: 0px 25px;
+}
+
+.education h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.solicitud{
+    height: auto;
+    width: 450px;
+    background-color: rgb(254, 243, 243);
+    margin: 0px 40px;
+    border-radius: 10px;
+    padding: 0px 30px 20px 30px;
+    position: absolute;
+    right: 30px;
+    top: 103px;
+    box-shadow: 0px 3px 8px rgba(128, 128, 128, 0.375);
+}
+
+.solicitud ul, li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.solicitud h1{
+    padding: 0px;
+    font-size: 25px;
+    margin: 15px 10px;
+}
+
+.friend{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(40, 197, 197);
+}
+
+.yourConection{
+    height: 380px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: rgb(254, 243, 243);
+    margin: 0px 40px;
+    border-radius: 10px;
+    padding: 0px 30px;
+    position: absolute;
+    right: 30px;
+    top: 340px;
+    box-shadow: 0px 3px 8px rgba(128, 128, 128, 0.375);
+}
+
+.yourConection h1{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-size: 25px;
+    margin: 15px 10px;
+}
+
+.yourConection ul, li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: -4px;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.mates{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+} 
+
+.accept{
+    font-size: 20px;
+    color: rgb(12, 213, 12);
+    background-color: rgb(254, 243, 243);
+    border: 3px solid rgb(12, 213, 12);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.accept:hover{
+    color: white;
+    background-color: rgb(12, 213, 12);
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.decline{
+    font-size: 20px;
+    color: rgb(213, 12, 12);
+    background-color: rgb(254, 243, 243);
+    border: 3px solid rgb(213, 12, 12);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.decline:hover{
+    color: white;
+    background-color: rgb(213, 12, 12);
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.topNav{
+    height: 100px;
+    width: 800px;
+    background-color: rgb(40, 187, 209);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#yo{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 65px;
+}
+
+.info{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 50px 50px 0px 50px;
+    color: rgb(82, 85, 88);
+    font-family: "Poppins", sans-serif;
+}
+
+.info> h1{
+    color: black;
+    margin: 2px;
+    margin-left: -2px;
+}
+
+.info> h3, h4{
+    font-weight: 600;
+    margin: 0px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.editProfile{
+    height: 40px;
+    width: 110px;
+    margin: -40px 0px 30px 40px;
+    color: rgb(56, 112, 222);
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.editProfile:hover{
+    cursor: pointer;
+    color: rgb(24, 24, 216);
+}

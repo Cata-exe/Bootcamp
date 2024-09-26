@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <h1>¡Regístrate y únete a la comunidad!</h1>
+        <div>
+            <label for="Nombre">Nombre: </label>
+            <input type="text" id="Nombre">
+        </div>
+        <div>
+            <label for="Apellido">Apellido: </label>
+            <input type="text" id="Apellido">
+        </div>
+        <div>
+            <label for="Correo_electronico">Correo Electrónico: </label>
+            <input type="email" id="Correo_electronico">
+        </div>
+        <div>
+            <label for="Contraseña">Contraseña: </label>
+            <input type="password" id="Contraseña">
+        </div>
+        <div>
+            <label for="Confirmar_contraseña">Confirmar Contraseña: </label>
+            <input type="password" id="Confirmar_contraseña">
+        </div>
+        <div>
+            <label for="Fecha_de_Nacimiento">Fecha de Nacimiento: </label>
+            <input type="date" id="Fecha_de_Nacimiento">
+        </div>
+        <div>
+            <label>Género: </label>
+            <input type="radio" id="Masculino" name="genero">
+            <label for="Masculino">Masculino </label>
+            <input type="radio" id="Femenino" name="genero">
+            <label for="Femenino">Femenino </label>
+            <input type="radio" id="Prefiero_no_decir" name="genero">
+            <label for="Prefiero_no_decir">Prefiero no decir </label>
+        </div>
+        <div>
+            <input type="checkbox" id="Suscríbete_a_nuestro_boletín_de_noticias" name="Suscríbete_a_nuestro_boletín_de_noticias">
+            <label for="Suscríbete_a_nuestro_boletín_de_noticias">Suscríbete a nuestro boletín de noticias </label>
+        </div>
+        <div>
+            <p>Una descripción de mi mismo: </p>
+            <textarea></textarea>
+        </div>
+        <div>
+            <p>Selecciona tus intereses:</p>
+            <select name="intereses" id="Selecciona_tus_intereses" size="4">
+                <option value="Música">Música</option>
+                <option value="Deportes">Deportes</option>
+                <option value="Viajes">Viajes</option>
+                <option value="Tecnología">Tecnologia</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="¡Regístrarse!">
+        </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

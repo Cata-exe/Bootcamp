@@ -1,0 +1,33 @@
+.search{
+    width: 100px;
+    height: 35px;
+    margin: 30px 0px 10px 50px;
+    display: block;
+    border-radius: 20px 20px 20px 20px;
+    background-color: lightgrey;
+    cursor: pointer;
+    border-width: 1.5px;
+}
+
+.plus{
+    width: 35px;
+    height: 35px;
+    margin-left: 82px;
+    display: block;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    background-color: #ff6600;
+    cursor: pointer;
+}
+
+.account{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0px 0px 50px;
+    color: white;
+    background-color: #0099ff;
+    border: none;
+    box-shadow: 10px 9px 14px 0px gray;
+    cursor: pointer;
+}

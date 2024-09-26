@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Perfil</title>
+    <link rel="Website icon" type="png" href="./img/SAKURA.png">
+    <link rel="Stylesheet" href="./css/style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="page">Perfil</div>
+        <ul class="menu">
+            <li>Inicio</li>
+            <li>Mi Perfil</li>
+            <li>Encontrar Conexiones</li>
+        </ul>
+        <button id="logOff">Cerrar Sesión</button>
+    </div>
+    <div class="container1">
+        <div class="topNav"></div>
+        <img id="yo" src="./img/20240713_190015.jpg" alt="Imagen de Perfil">
+        <div class="info">
+            <h1 class="name">Catalina Hernández</h1>
+            <h3>Chile</h3>
+            <h4>Titulo | Titulo | Titulo</h4>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Dignissim ultricies augue ac leo facilisis ex fermentum class. Suspendisse metus montes mus litora nam dictumst quam ultricies. Duis ullamcorper augue adipiscing tellus nostra duis cursus sollicitudin litora.
+            </p>
+        </div> <!--en el boton se puede aplicar: onclick='document.querySelector(".name").innerHTML = "Jane Doe"' -->
+        <button class="editProfile">⚙ Edit profile</button>
+        </div>
+    <div class="education">
+        <h2>Education</h2>
+        <p>Coding Dojo - Bootcamp de Desarrollo Full Stack</p>
+        <p>Agosto 2024 - TBA</p>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+    </div>
+    <div class="solicitud">
+        <h1>Solicitudes de Conexión (<span id="count">2</span>)</h1>
+        <ul class="request">
+            <li>
+                <img class="friend" src="./img/Illustration.jpg" alt="Imagen de una pareja en estilo anime">
+            </li>
+            <li>
+                <p>Nombre Apellido</p>
+            </li>
+            <li>
+                <button class="accept">✔</button>
+            </li>
+            <li>
+                <button class="decline">✖</button>
+            </li>
+        </ul>
+        <ul class="request">
+            <li>
+                <img class="friend" src="./img/granny.jpg" alt="Imagen de una ancianita en estilo anime">
+            </li>
+            <li>
+                <p>Nombre Apellido</p>
+            </li>
+            <li>
+                <button class="accept">✔</button>
+            </li>
+            <li>
+                <button class="decline">✖</button>
+            </li>
+        </ul>
+    </div>
+    <div class="yourConection">
+        <h1>Tus Conexiones (<span id="addedFriends">500</span>)</h1>
+        <ul>
+            <li>
+                <img class="mates" src="./img/friendos.jpg" alt="Imagen de amigas en estilo anime">
+            </li>
+            <li>Nombre Apellido</li>
+        </ul>
+        <ul>
+            <li>
+                <img class="mates" src="./img/dude.jpg" alt="Imagen de un chico en estilo anime">
+            </li>
+            <li>Nombre Apellido</li>
+        </ul>
+        <ul>
+            <li>
+                <img class="mates" src="./img/woman.jpg" alt="Imagen de una mujer en estilo anime">
+            </li>
+            <li>Nombre Apellido</li>
+        </ul>
+        <ul>
+            <li>
+                <img class="mates" src="./img/bro1.jpg" alt="Imagen de chico anime 1">
+            </li>
+            <li>Nombre Apellido</li>
+        </ul>
+        <ul>
+            <li>
+                <img class="mates" src="./img/bro2.jpg" alt="Imagen del hermano de chico anime 2">
+            </li>
+            <li>Nombre Apellido</li>
+        </ul>
+        <ul>
+            <li>
+                <img class="mates" src="./img/woman2.jpg" alt="Imagen de mujer de piel morena en estilo anime">
+            </li>
+            <li>Nombre Apellido</li>
+        </ul>
+    </div>
+</body>
+</html>

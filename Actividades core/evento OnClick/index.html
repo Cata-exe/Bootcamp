@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="OnClick.js" defer></script>
+</head>
+<body>
+    <nav>
+        <h1>Petlopedia</h1>
+        <input type="text" placeholder="Buscar mascotas">
+        <button class="login" onclick="logOut(this)">Iniciar sesión</button>
+    </nav>
+    <main>
+        <div class="animal">
+            <h2>Gato Atigrado</h2>
+            <em>sustantivo</em>
+            <p>Plural: Gatos Atigrados</p>
+            <p>Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente</p>
+            <button id="like1" onclick="upCount1(this)"><span id="btn1">22</span>Me gusta</button>
+        </div>
+        <div>
+            <div class="definicion">
+                <p>Petlopedia está definicion por TI</p>
+                <button class="def" onclick="erase(this)">Agregar Definición</button>
+            </div>
+        </div>
+        <div class="animal">
+            <h2>Golden Retriever</h2>
+            <em>sustantivo</em>
+            <p>Plural: Golden Retrievers</p>
+            <p>Una raza de perro amistosa, Inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos</p>
+            <button id="like2" onclick="upCount(this)"><span id="btn2">42</span>Me gusta</button>
+        </div>
+    </main>
+</body>
+</html>

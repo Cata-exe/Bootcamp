@@ -1,0 +1,75 @@
+html{
+    background-image: url(../img/sakura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-shadow: 0px 0px 10px hotpink;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: 0px 340px;
+    padding: 10px 0px;
+}
+
+.container1{
+    background-color: #FF8591;
+}
+
+.container2{
+    background-color: #EFAAA3;
+}
+
+.container3{
+    background-color: #8CAAA2;
+}
+
+.container img{
+    height: 180px;
+}
+
+.container1 img{
+    filter: drop-shadow(20px 10px 4px rgba(168, 56, 56, 0.475));
+}
+
+.container2 img{
+    filter: drop-shadow(20px 10px 4px rgba(220, 105, 97, 0.553));
+}
+
+.container3 img{
+    filter: drop-shadow(20px 10px 4px rgba(52, 97, 125, 0.374));
+}
+
+.container img:hover{
+    opacity: 0.5;
+}
+
+.end{
+    color: white;
+    font-size: large;
+    display: flex;
+    background-color: #44878F;
+    justify-content: center;
+    padding: 15px 0px;
+    width: 800px;
+    margin: 0px 340px;
+}
+
+#link{
+    margin-left: 5px;
+    color: white;
+    text-decoration: underline wavy hotpink;
+    cursor: pointer;
+}
+
+#link:hover{
+    color: hotpink;
+}

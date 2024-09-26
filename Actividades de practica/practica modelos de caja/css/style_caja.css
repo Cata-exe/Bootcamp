@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    text-decoration: underline wavy;
+}
+
+.b1{
+    color: white;
+    background-color: lightseagreen;
+    margin: 20px;
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 30px;
+    height: 160px;
+    width: 420px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.b2{
+    color: white;
+    background-color: fuchsia;
+    margin: 20px;
+    margin-right: 50px;
+    height: 160px;
+    width: 420px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.b3{
+    color: white;
+    background-color: darkblue;
+    margin: 20px;
+    height: 160px;
+    width: 420px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+}
